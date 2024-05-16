@@ -8,6 +8,11 @@ Dieses Projekt nutzt OBD-Daten, um den Widerstand und den State of Health (SoH) 
 ### ir.py
 Dieses Skript ist für die Berechnung des Innenwiderstands (IR) der Batterie zuständig. Es verwendet OBD-Daten zur Durchführung der Berechnungen und gibt den geschätzten Innenwiderstand aus.
 
+python .\ir.py --data_path="test_data.csv" --threshold=0.99 --cells=96
+
+Hilfe: python .\ir.py --help
+
+
 ### soh.py
 Dieses Skript berechnet den State of Health (SoH) der Batterie basierend auf den OBD-Daten. Der SoH gibt Auskunft über die verbleibende Kapazität der Batterie im Vergleich zu ihrem Neuzustand.
 
