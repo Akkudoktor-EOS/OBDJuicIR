@@ -29,6 +29,6 @@ Um dieses Projekt zu verwenden, müssen Sie Python installiert haben.
 ## Support und Fragen
 Im Akkudoktor Forum bitte -> forum.akkudoktor.net
 
-Beschwerden: In den Spiegel bitte!
+Beschwerden: In den Spiegel bitte! Oder noch besser: Machs besser und lade es hoch!
 
 Autor: Dr. Andreas Schmitz
