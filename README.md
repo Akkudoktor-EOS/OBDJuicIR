@@ -18,4 +18,5 @@ Um dieses Projekt zu verwenden, müssen Sie Python installiert haben.
 
 ## Support und Fragen
 Im Akkudoktor Forum bitte -> forum.akkudoktor.net
+
 Autor: Dr. Andreas Schmitz
