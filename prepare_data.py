@@ -35,7 +35,7 @@ data_interpolated = data_wide_filtered.interpolate(method='linear', limit_direct
 data_interpolated['Average temperature'] = data_interpolated[['Cell temperatures max', 'Cell temperatures min']].mean(axis=1)
 
 # Speichere die bereinigten Daten im breiten Format
-output_path = '2024-05-08_cleaned_battery_data_wide_filtered_extended.csv'
+output_path = 'test_data.csv'
 data_interpolated.to_csv(output_path, index=False)
 
 # Ausgabe des Speicherpfads (optional)
