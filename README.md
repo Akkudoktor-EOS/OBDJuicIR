@@ -1,5 +1,5 @@
 # OBD-Juice: OBD Daten zur Widerstands- und SoH-Schätzung
-# Autor: Dr. Andreas Schmitz
+
 
 Dieses Projekt nutzt OBD-Daten, um den Widerstand und den State of Health (SoH) von Fahrzeugbatterien zu schätzen. Es besteht aus zwei Hauptskripten: `ir.py` und `soh.py`.
 
@@ -18,3 +18,4 @@ Um dieses Projekt zu verwenden, müssen Sie Python installiert haben.
 
 ## Support und Fragen
 Im Akkudoktor Forum bitte -> forum.akkudoktor.net
+Autor: Dr. Andreas Schmitz
