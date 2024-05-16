@@ -16,6 +16,11 @@ Hilfe: python .\ir.py --help
 ### soh.py
 Dieses Skript berechnet den State of Health (SoH) der Batterie basierend auf den OBD-Daten. Der SoH gibt Auskunft über die verbleibende Kapazität der Batterie im Vergleich zu ihrem Neuzustand.
 
+
+### prepare_data.py
+Dieses Skript verarbeitet CSV-Rohdaten aus Car Scanner. Filtern von Außreißern, Spaltenauswahl, zeilenbasierte Format -> spaltenbasiert umwandeln
+
+
 ## Installation
 
 Um dieses Projekt zu verwenden, müssen Sie Python installiert haben. 
