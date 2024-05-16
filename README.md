@@ -1,4 +1,4 @@
-# OBD-Juice: OBD Daten zur Widerstands- und SoH-Schätzung
+# OBD-JuicIR: OBD Daten zur Widerstands- und SoH-Schätzung
 
 
 Dieses Projekt nutzt OBD-Daten, um den Widerstand und den State of Health (SoH) von Fahrzeugbatterien zu schätzen. Es besteht aus zwei Hauptskripten: `ir.py` und `soh.py`.
