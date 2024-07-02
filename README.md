@@ -3,6 +3,32 @@
 
 Dieses Projekt nutzt OBD-Daten, um den Widerstand und den State of Health (SoH) von Fahrzeugbatterien zu schätzen. Es besteht aus zwei Hauptskripten: `ir.py` und `soh.py`.
 
+## Python Virtuelle Umgebung
+
+Python unterstützt virtuelle Umgebungen (venv), somit müssen entsprechenden Abhängigkeiten nicht global installiert werden. Im Hauptverzeichnis wird Umgebung mit dem Befehl
+
+```shell
+python -m venv venv
+```
+
+angelegt.
+
+Möchte man diese Umgebung anschliessend verwenden, so muss diese aktiviert werden.
+
+### Linux (Bash)
+
+```shell
+source venv/bin/activate
+```
+
+### Windows
+
+Unter Powershell
+
+```shell
+.\venv\Scripts\activate.ps1
+```
+
 ## Abhängigkeiten
 
 Alle Abhängigkeiten lassen sich mit `pip` installieren, dazu muss nachfolgender Befehl ausgeführt werden.
@@ -10,6 +36,7 @@ Alle Abhängigkeiten lassen sich mit `pip` installieren, dazu muss nachfolgender
 ```shell
 pip install -r requirements.txt
 ```
+
 
 ## Dateien
 
